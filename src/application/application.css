@@ -1,0 +1,46 @@
+
+.smallbold-text {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.small-text {
+    -fx-font-size: 12px;
+}
+
+.mediumbold-text {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+.medium-text {
+    -fx-font-size: 14px;
+}
+
+.largebold-text {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+.large-text {
+    -fx-font-size: 18px;
+}
+.prompt-text {
+    -fx-prompt-text-fill: #D3D3D3; /*lightgrey */
+    
+}
+
+.black-color {
+    -fx-text-fill: black;
+}
+
+.cyan-color {
+    -fx-text-fill: #1ad4f5; /*Cyan */
+}
+
+.yellow-color {
+    -fx-text-fill: #fbf629; /*Yellow */
+}
+.darkblue-color {
+    -fx-text-fill: #1a1c2d; /*Darkblue */
+}
+.red-color {
+    -fx-text-fill: #f51b1b; /*Red */
+}

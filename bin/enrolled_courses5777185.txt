@@ -1,0 +1,6 @@
+FirstName: George, LastName: Forman, StudentNumber: 5777185, CourseName: Java programming, Capacity: 108, Year: 1, DeliveryMode: Face-to-face, DayOfLecture: Wednesday, TimeOfLecture: 11:30, DurationOfLecture: 2
+FirstName: George, LastName: Forman, StudentNumber: 5777185, CourseName: Programming skills, Capacity: 491, Year: 1, DeliveryMode: Face-to-face, DayOfLecture: Tuesday, TimeOfLecture: 8:30, DurationOfLecture: 1
+FirstName: George, LastName: Forman, StudentNumber: 5777185, CourseName: Knowledge technologies, Capacity: 222, Year: 2, DeliveryMode: Face-to-face, DayOfLecture: Friday, TimeOfLecture: 14:00, DurationOfLecture: 2
+FirstName: George, LastName: Forman, StudentNumber: 5777185, CourseName: Algorithms and complexity, Capacity: 223, Year: 2, DeliveryMode: Face-to-face, DayOfLecture: Tuesday, TimeOfLecture: 10:00, DurationOfLecture: 1.5
+FirstName: George, LastName: Forman, StudentNumber: 5777185, CourseName: Math, Capacity: 0, Year: Year 1, DeliveryMode: Online, DayOfLecture: Wednesday, TimeOfLecture: 9:00, DurationOfLecture: 2
+FirstName: George, LastName: Forman, StudentNumber: 5777185, CourseName: Data mining, Capacity: 0, Year: Year 3, DeliveryMode: Online, DayOfLecture: Thursday, TimeOfLecture: 12:00, DurationOfLecture: 2

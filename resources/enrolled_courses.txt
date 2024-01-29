@@ -1,0 +1,2 @@
+FirstName: Cool, LastName: Name, StudentNumber: 6336542, CourseName: Java programming, Capacity: 109, Year: 1, DeliveryMode: Face-to-face, DayOfLecture: Wednesday, TimeOfLecture: 11:30, DurationOfLecture: 2
+FirstName: Cool, LastName: Name, StudentNumber: 6336542, CourseName: Programming skills, Capacity: 493, Year: 1, DeliveryMode: Face-to-face, DayOfLecture: Tuesday, TimeOfLecture: 8:30, DurationOfLecture: 1
