@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1a1c2d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Login">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #fbf629;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-7.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="200.0" fitWidth="200.0" layoutY="100.0">
+               <image>
+                  <Image url="@../../resources/universityLogo.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="32.0" layoutY="47.0" prefHeight="27.0" prefWidth="135.0" text="Orca University " textFill="#1a1c2d" styleClass= "largebold-text, darkblue-color">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane fx:id="username" prefHeight="400.0" prefWidth="426.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="69.0" layoutY="114.0" text="Username" textFill="#fbf629" styleClass= "largebold-text, yellow-color">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="71.0" layoutY="170.0" text="Password" textFill="#fbf629" styleClass= "largebold-text, yellow-color">>
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="UsernameLogin" layoutX="175.0" layoutY="115.0" prefHeight="26.0" prefWidth="150.0" promptText="Username" styleClass= "prompt-text"/>
+            <Button fx:id="LoginButtonLogin" layoutX="175.0" layoutY="247.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #fbf629;" text="Log In">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Label fx:id="ErrorLabel" layoutX="175.0" layoutY="81.0" prefHeight="18.0" prefWidth="210.0" textFill="RED" styleClass= "small-text, red-color"/>
+            <Button fx:id="CancelButtonLogin" layoutX="175.0" layoutY="292.0" mnemonicParsing="false" onAction="#CancelButtonLoginOnAction" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #fbf629;" text="Cancel" styleClass="smallbold-text, darkblue-color">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="passwordLogin" layoutX="176.0" layoutY="170.0" promptText="Password" styleClass= "small-text, prompt-text"/>
+            <Label layoutX="65.0" layoutY="341.0" prefHeight="22.0" prefWidth="110.0" text="Not a Student?" textFill="#fbf629" styleClass= "mediumbold-text, yellow-color">>
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="SignUpButtonLogIn" layoutX="175.0" layoutY="339.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" style="-fx-background-color: transparent;" text="SignUp" textFill="#1ad4f5" underline="true" styleClass= "smallbold-text, cyan-color">>
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

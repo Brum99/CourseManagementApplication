@@ -1,0 +1,1 @@
+FirstName: a, LastName: a, StudentNumber: 8173334, CourseName: Advanced Python programming, Capacity: 0, Year: 2, DeliveryMode: Face-to-face, DayOfLecture: Friday, TimeOfLecture: 16:00, DurationOfLecture: 1.5

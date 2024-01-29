@@ -1,0 +1,4 @@
+FirstName: Samuel, LastName: Peterson, StudentNumber: 6336542, CourseName: Java programming, Capacity: 109, Year: 1, DeliveryMode: Face-to-face, DayOfLecture: Wednesday, TimeOfLecture: 11:30, DurationOfLecture: 2
+FirstName: Samuel, LastName: Peterson, StudentNumber: 6336542, CourseName: Programming skills, Capacity: 493, Year: 1, DeliveryMode: Face-to-face, DayOfLecture: Tuesday, TimeOfLecture: 8:30, DurationOfLecture: 1
+FirstName: Samuel, LastName: Peterson, StudentNumber: 6336542, CourseName: Knowledge technologies, Capacity: 224, Year: 2, DeliveryMode: Face-to-face, DayOfLecture: Friday, TimeOfLecture: 14:00, DurationOfLecture: 2
+FirstName: Samuel, LastName: Peterson, StudentNumber: 6336542, CourseName: Algorithms and complexity, Capacity: 225, Year: 2, DeliveryMode: Face-to-face, DayOfLecture: Tuesday, TimeOfLecture: 10:00, DurationOfLecture: 1.5

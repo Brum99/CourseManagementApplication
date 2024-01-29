@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="813.0" style="-fx-background-color: #1a1c2d;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EnrollmentsController">
+   <left>
+      <AnchorPane fx:id="username" prefHeight="600.0" prefWidth="1080.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="WelcomeMessageLoggedIn" alignment="CENTER_RIGHT" layoutX="412.0" layoutY="4.0" prefHeight="20.0" prefWidth="387.0" text="Sam Peterson s1234567" textAlignment="RIGHT" textFill="#fbf629">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fbf629" height="28.0" layoutX="-1.0" layoutY="33.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="813.0" />
+            <MenuBar layoutX="70.0" layoutY="34.0" prefHeight="26.0" prefWidth="268.0" style="-fx-background-color: #fbf629;">
+              <menus>
+                <Menu mnemonicParsing="false" text="Options">
+                  <items>
+                    <MenuItem fx:id="ShowCoursesMenuItem" mnemonicParsing="false" text="Show all courses" />
+                        <MenuItem id="EditProfileButton" fx:id="EditProfileButton" mnemonicParsing="false" text="Edit Profile" />
+                        <MenuItem mnemonicParsing="false" text="Enrollents" />
+                        <MenuItem fx:id="TimeTableMenuItem" mnemonicParsing="false" text="Timetable" />
+                        <MenuItem fx:id="ExportEnrolledCourses" mnemonicParsing="false" text="Export Enrolled Courses" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <Label layoutX="14.0" prefHeight="27.0" prefWidth="135.0" text="Orca University " textFill="#fbf629">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="LogOutLoggedIn" layoutX="14.0" layoutY="34.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="64.0" style="-fx-background-color: #fbf629;" text="Log Out" />
+            <TableView fx:id="courseTableView" layoutX="-1.0" layoutY="61.0" prefHeight="374.0" prefWidth="814.0">
+              <columns>
+                <TableColumn fx:id="CourseNameColumn" prefWidth="228.00002747774124" text="Course name" />
+                <TableColumn fx:id="CapacityColumn" prefWidth="59.19996643066406" text="Capacity" />
+                  <TableColumn fx:id="YearColumn" prefWidth="61.5999755859375" text="Year" />
+                  <TableColumn fx:id="DeliveryModeColumn" prefWidth="126.4000244140625" text="Delivery mode" />
+                  <TableColumn fx:id="DayOfLectureColumn" prefWidth="94.39996337890625" text="Day of Lecture" />
+                  <TableColumn fx:id="TimeOfLectureColumn" prefWidth="96.79998779296875" text="Time of Lecture" />
+                  <TableColumn fx:id="DurationOfLectureColumn" prefWidth="166.39990234375" text="Duration of Lecture" />
+              </columns>
+            </TableView>
+            <Label fx:id="feedbackLabel" layoutX="56.0" layoutY="455.0" prefHeight="18.0" prefWidth="702.0" text="Double click on a Course to withdraw." textFill="#1ad4f5">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children></AnchorPane>
+   </left>
+</BorderPane>
