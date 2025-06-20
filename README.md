@@ -57,7 +57,7 @@ CourseManagementApplication/
 │   └── course_list.fxml
 ├── cms.db
 └── README.md
-
+```
 
 ---
 
@@ -65,9 +65,9 @@ CourseManagementApplication/
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/Brum99/CourseManagementApplication.git
-```
+
 
 ### 2. Open in IDE
 
@@ -129,7 +129,7 @@ To contribute:
 For questions or issues, please reach out:
 
 📧 [samdpeterson1999@gmail.com](mailto:samdpeterson1999@gmail.com)
-🌐 [https://github.com/Brum99](https://github.com/Brum99)
+
 
 ---
 
